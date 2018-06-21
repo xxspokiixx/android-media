@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release code="32" version="1.3.3">
+        <change type="fix">Error en listar episodios de animes largos</change>
+    </release>
+    <release code="31" version="1.3.2">
+        <change type="fix">Errores en Cast</change>
+    </release>
+    <release code="30" version="1.3.1">
+        <change type="fix">Errores generales en Android TV</change>
+    </release>
+    <release code="29" version="1.3">
+        <change type="fix">Errores generales</change>
+        <change type="new">Diseño especial para Android TV</change>
+    </release>
+    <release code="28" version="1.2.5">
+        <change type="fix">Errores generales</change>
+        <change type="fix">Servidor RV</change>
+        <change type="change">Mejora en pendientes</change>
+    </release>
+    <release code="27" version="1.2.4">
+        <change type="change">Mejora en explorador</change>
+    </release>
+    <release code="26" version="1.2.3">
+        <change type="fix">Error en nombre de animes</change>
+        <change type="new">Soporte para Android TV</change>
+    </release>
+    <release code="25" version="1.2.2">
+        <change type="fix">Errores generales</change>
+        <change type="fix">Error al hacer cast de archivos locales</change>
+    </release>
+    <release code="24" version="1.2.1">
+        <change type="fix">Servidor Mega duplicado</change>
+        <change type="fix">Servidor Fire corregido</change>
+        <change type="change">Marcar episodios pendientes como vistos y el ultimo es añadido a
+            historial
+        </change>
+    </release>
+    <release code="23" version="1.2">
+        <change type="fix">Errores generales</change>
+        <change type="new">Cola de reproducción</change>
+    </release>
+    <release code="22" version="1.1.1">
+        <change type="fix">Error de colores</change>
+        <change type="fix">Error al abrir informacion de animes sin conexion</change>
+    </release>
+    <release code="21" version="1.1">
+        <change type="new">Click largo en emisión para ocultar</change>
+        <change type="new">Widget de emisión agregado</change>
+        <change type="new">Abrir pantalla de genero desde informacion de anime</change>
+        <change type="new">Easter egg agregado, pista: "easteregg"</change>
+        <change type="change">Modo PIP en reproductor mejorado</change>
+        <change type="change">Explorador optimizado</change>
+        <change type="fix">Errores generales</change>
+    </release>
+    <release code="20" version="1.0">
+        <change type="change">Version final</change>
+        <change type="new">Accesos directos en launcher</change>
+        <change type="fix">Errores generales</change>
+    </release>
+    <release code="19" version="0.4.2 beta">
+        <change type="change">Agregada mas informacion en acerca de</change>
+        <change type="fix">Errores generales</change>
+    </release>
+    <release code="18" version="0.4.1 beta">
+        <change type="fix">Error al notificar animes nuevos</change>
+    </release>
+    <release code="17" version="0.4 beta">
+        <change type="new">Seccion de sugerencias</change>
+        <change type="fix">Errores generales</change>
+    </release>
+    <release code="16" version="0.3.12 beta">
+        <change type="fix">Icono arreglado para algunos telefonos</change>
+    </release>
+    <release code="15" version="0.3.11 beta">
+        <change type="fix">Bypass de cloudflare agregado</change>
+        <change type="change">Boton cast en explorador ahora abre controles</change>
+    </release>
+    <release code="14" version="0.3.10 beta">
+        <change type="new">Pantalla de informacion</change>
+        <change type="fix">Errores generales</change>
+    </release>
+    <release code="12" version="0.3.9 beta">
+        <change type="fix">Error al actualizar app en Android 5 y 6</change>
+    </release>
+    <release code="11" version="0.3.8 beta">
+        <change type="new">Pantalla para descargas activas (Explorador>Descargas)</change>
+    </release>
+    <release code="10" version="0.3.7 beta">
+        <change type="fix">Error al migrar datos</change>
+    </release>
+    <release code="9" version="0.3.6 beta">
+        <change type="new">Sincronizacion en la nube (Dropbox y Google Drive)</change>
+        <change type="new">Migración de favoritos desde AnimeflvApp</change>
+        <change type="fix">Errores en explorador al girar la pantalla</change>
+    </release>
+    <release code="8" version="0.3.5 beta">
+        <change type="new">Cast de episodios descargados</change>
+        <change type="fix">Error al abrir la app sin conexión</change>
+        <change type="fix">Errores generales</change>
+    </release>
+    <release code="7" version="0.3.4 beta">
+        <change type="new">Changelog</change>
+        <change type="new">Sección de animes random</change>
+        <change type="fix">Errores generales</change>
+    </release>
+</changelog>
