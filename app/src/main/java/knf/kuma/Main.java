@@ -97,7 +97,7 @@ public class Main extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(EAHelper.getThemeNA(this));
         super.onCreate(savedInstanceState);
-        if (!getString(R.string.app_name).equals("UKIKU")) {
+        if (!getString(R.string.app_name).equals("spokes")) {
             Toaster.toast("Te dije que no lo cambiaras");
             finish();
             return;

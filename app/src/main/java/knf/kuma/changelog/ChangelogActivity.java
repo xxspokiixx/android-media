@@ -142,7 +142,7 @@ public class ChangelogActivity extends AppCompatActivity {
         if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean("changelog_load", true)) {
             return new Changelog(Jsoup.parse(getXml(), "", Parser.xmlParser()));
         } else {
-            return new Changelog(Jsoup.connect("https://raw.githubusercontent.com/jordyamc/UKIKU/master/app/src/main/assets/changelog.xml").parser(Parser.xmlParser()).get());
+            return new Changelog(Jsoup.connect("https://raw.githubusercontent.com/jordyamc/spokes/master/app/src/main/assets/changelog.xml").parser(Parser.xmlParser()).get());
         }
     }
 

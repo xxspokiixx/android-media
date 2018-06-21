@@ -2,7 +2,7 @@
 <paths>
     <external-path
         name="downloads"
-        path="UKIKU/downloads/"/>
+        path="spokes/downloads/"/>
     <files-path
         name="files"
         path="."/>

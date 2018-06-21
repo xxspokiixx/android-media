@@ -14,7 +14,7 @@ public class Updatechecker {
         if (Network.isConnected())
             AsyncTask.execute(() -> {
                 try {
-                    Document document = Jsoup.connect("https://raw.githubusercontent.com/jordyamc/UKIKU/master/version.num").get();
+                    Document document = Jsoup.connect("https://raw.githubusercontent.com/jordyamc/spokes/master/version.num").get();
                     int n_code = Integer.parseInt(document.select("body").first().ownText().trim());
                     int o_code = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionCode;
                     if (n_code > o_code) {

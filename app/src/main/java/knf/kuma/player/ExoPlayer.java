@@ -146,11 +146,11 @@ public class ExoPlayer extends AppCompatActivity implements Player.EventListener
                     if (object.isFile)
                         sourceList.add(new ExtractorMediaSource.Factory(new FileDataSourceFactory()).createMediaSource(object.uri));
                     else
-                        sourceList.add(new ExtractorMediaSource.Factory(new DefaultHttpDataSourceFactory(Util.getUserAgent(this, "UKIKU"))).createMediaSource(object.uri));
+                        sourceList.add(new ExtractorMediaSource.Factory(new DefaultHttpDataSourceFactory(Util.getUserAgent(this, "spokes"))).createMediaSource(object.uri));
                 }
                 source = new ConcatenatingMediaSource(sourceList.toArray(new MediaSource[]{}));
             } else if (!intent.getBooleanExtra("isFile", false)) {
-                source = new ExtractorMediaSource.Factory(new DefaultHttpDataSourceFactory(Util.getUserAgent(this, "UKIKU"))).createMediaSource(intent.getData());
+                source = new ExtractorMediaSource.Factory(new DefaultHttpDataSourceFactory(Util.getUserAgent(this, "spokes"))).createMediaSource(intent.getData());
             } else {
                 source = new ExtractorMediaSource.Factory(new FileDataSourceFactory()).createMediaSource(intent.getData());
             }

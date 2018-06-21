@@ -46,11 +46,11 @@
                 <category android:name="android.intent.category.DEFAULT"/>
 
                 <data
-                    android:host="ukiku.ga"
+                    android:host="spokes"
                     android:pathPrefix="/*"
                     android:scheme="http"/>
                 <data
-                    android:host="ukiku.ga"
+                    android:host="spokes"
                     android:pathPrefix="/get.php"
                     android:scheme="http"/>
             </intent-filter>
@@ -58,7 +58,7 @@
             <intent-filter>
                 <data
                     android:host="open"
-                    android:scheme="ukiku"/>
+                    android:scheme="spokes"/>
                 <action android:name="android.intent.action.VIEW"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>

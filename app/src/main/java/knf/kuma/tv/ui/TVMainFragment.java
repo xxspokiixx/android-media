@@ -61,7 +61,7 @@ public class TVMainFragment extends BrowseSupportFragment implements OnItemViewS
         backgroundManager = new GlideBackgroundManager(getActivity());
         setHeadersState(HEADERS_ENABLED);
         setHeadersTransitionOnBackEnabled(true);
-        setTitle("UKIKU");
+        setTitle("spokes");
         setBrandColor(ContextCompat.getColor(getContext(), R.color.colorPrimary));
         setSearchAffordanceColor(ContextCompat.getColor(getContext(), R.color.colorAccent));
         setOnSearchClickedListener(this);

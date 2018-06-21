@@ -114,7 +114,7 @@ public class UpdateActivity extends AppCompatActivity {
         File file = getUpdate();
         if (file.exists())
             file.delete();
-        new ThinDownloadManager().add(new DownloadRequest(Uri.parse("https://github.com/jordyamc/UKIKU/raw/master/app/release/app-release.apk"))
+        new ThinDownloadManager().add(new DownloadRequest(Uri.parse("https://github.com/jordyamc/spokes/raw/master/app/release/app-release.apk"))
                 .setDestinationURI(Uri.fromFile(file))
                 .setDownloadResumable(false)
                 .setStatusListener(new DownloadStatusListenerV1() {

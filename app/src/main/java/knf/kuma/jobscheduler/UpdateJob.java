@@ -38,7 +38,7 @@ public class UpdateJob extends Job {
     @Override
     protected Result onRunJob(@NonNull Params params) {
         try {
-            Document document = Jsoup.connect("https://raw.githubusercontent.com/jordyamc/UKIKU/master/version.num").get();
+            Document document = Jsoup.connect("https://raw.githubusercontent.com/jordyamc/spokes/master/version.num").get();
             int n_code = Integer.parseInt(document.select("body").first().ownText().trim());
             int s_code = PreferenceManager.getDefaultSharedPreferences(getContext()).getInt("last_notified_update", 0);
             if (n_code <= s_code)

@@ -47,9 +47,9 @@ public class AppInfo extends MaterialAboutActivity {
         donateCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_patreon), "Patreon", false, Uri.parse("https://www.patreon.com/animeflvapp")));
         MaterialAboutCard.Builder extraCard = new MaterialAboutCard.Builder();
         extraCard.title("Extras");
-        extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_web), "Página web", true, Uri.parse("http://ukiku.ga")));
-        extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_github), "Proyecto en github", true, Uri.parse("https://github.com/jordyamc/UKIKU")));
-        extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_facebook), "Facebook", true, Uri.parse("https://www.facebook.com/ukikuapp")));
+        extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_web), "Página web", true, Uri.parse("http://spokes.ga")));
+        extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_github), "Proyecto en github", true, Uri.parse("https://github.com/jordyamc/spokes")));
+        extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_facebook), "Facebook", true, Uri.parse("https://www.facebook.com/spokesapp")));
         extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_discord), "Discord", false, Uri.parse("https://discord.gg/6hzpua6")));
         extraCard.addItem(ConvenienceBuilder.createWebsiteActionItem(AppInfo.this, getDrawable(R.drawable.ic_beta), "Grupo Beta", false, Uri.parse("https://t.me/joinchat/A3tvqEKOzGVyaZhQPc14_Q")));
         final String ea = EAHelper.getEAMessage(this);
